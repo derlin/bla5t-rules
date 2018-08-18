@@ -1,36 +1,73 @@
-/*
-img.number {
-    height: 50px;
-    vertical-align: middle;
+/* general */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html {
+    font-family: 'Raleway', sans-serif;
+    background: #85c23a;
 }
 
-img.avatar {
-    height: 80px;
-    vertical-align: bottom;
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #53a627;
 }
 
-span.name {
-    font-weight: bold;
+div#main {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
 }
 
-span {
-    padding: 0 20px;
+div#main p {
+    line-height: 1.4;
+    text-align: justify;
+    padding: 3px 20px;
 }
-*/
 
-html, body {
-    font-family: sans-serif;
+a {
+    color: #85c23a;
+    text-decoration: none;
 }
+
+a:hover {
+    color: #000;
+}
+
+@media print {
+    footer, .no-print {
+        display: none;
+    }
+
+    html, body, #main {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+footer {
+    text-align: right;
+    padding: 5px 10px;
+    max-width: 1100px;
+    margin: auto;
+}
+/* cards */
 
 table {
     border-collapse: collapse;
     border-top: 1px solid #53a627;
+    margin: auto;
 }
 
 td, tr {
     border-bottom: 1px solid #53a627;
     vertical-align: middle;
     padding: 2px 0 2px 10px;
+}
+
+td.name {
+    font-family: 'Oswald', sans-serif;
 }
 
 .number img {
