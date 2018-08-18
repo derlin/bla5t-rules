@@ -1,0 +1,54 @@
+/*
+img.number {
+    height: 50px;
+    vertical-align: middle;
+}
+
+img.avatar {
+    height: 80px;
+    vertical-align: bottom;
+}
+
+span.name {
+    font-weight: bold;
+}
+
+span {
+    padding: 0 20px;
+}
+*/
+
+html, body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 1px solid #53a627;
+}
+
+td, tr {
+    border-bottom: 1px solid #53a627;
+    vertical-align: middle;
+    padding: 2px 0 2px 10px;
+}
+
+.number img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+.avatar {
+    text-align: center;
+}
+.avatar img {
+    height: 45px;
+    vertical-align: bottom;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    max-width: 100px;
+    font-size: .9em;
+}
